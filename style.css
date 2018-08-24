@@ -1,0 +1,162 @@
+		body{
+				background-color:#e6e6e6;
+			}
+			.navbar {
+				margin-bottom: 0;
+				z-index: 9999;
+				border: 0;
+				border-radius: 0;
+				font-family: Georgia, serif;
+				position:fixed;
+				opacity:0.8;
+				background-color:grey;
+			}
+			
+			#myNavbar ul li a,#myNavHead {
+				color: #fff ;
+				font-size: 17px;
+				color:red;
+				transition:font-size 1s;
+			}
+			
+			#myNavHead:hover{
+				font-size:30px;
+				color:yellow;
+			}
+			
+			.headstyle{
+				font-family: Georgia, serif;
+			}
+			
+			 #myNavbar ul {
+				margin-left:50px;
+			}
+			
+			#myNavbar ul li a:hover {
+				color:yellow ;
+				background-color:black;
+			}
+			
+			.images{
+				width:100%;
+				height:600px !important;
+			}
+			
+			.bannercontent1{
+				margin-bottom:200px;
+				color:yellow;
+			}
+			
+			.bannercontent{
+				color:red;
+			}
+			.card1{
+				margin:10px;
+				padding:0px;
+			}
+			.card2{
+				padding:0px;
+			}
+			
+			.cardimg{
+				height:200px;
+				width:100%;
+				border:2px solid red;
+			}
+			
+			.big {
+				font-size: 250px;
+				margin-left:150px;
+				margin-top:80px;
+				color:red;
+			}
+			
+			#about{
+				font-size:17px;
+				color:black;
+				
+			}
+			
+			.aboutcontent{
+				margin-top:20px;
+			}
+			.aboutbtn{
+				font-size:20px;
+			}
+			.bold{
+				font-weight:bold;
+			}
+			
+			#consultants{
+				background-color:white;
+			}
+			.head{
+			margin-top:100px;
+			}
+			.cardbutton{
+				border: none;
+				outline: 0;
+				display: inline-block;
+				padding: 8px;
+				color: white;
+				background-color: #000;
+				text-align: center;
+				width: 100%;
+				font-size: 18px;
+			}
+
+			.cardbutton:hover{
+				opacity:0.8;
+			}
+			
+			#consult{
+				margin-bottom:100px !important;
+				margin-top:20px !important;
+			}
+			
+			.conscontact{
+			 background-color:black;
+			 color:white;
+			 text-decoration:none;
+			 font-size:20px;
+			 text-align:center;
+			}	
+			
+			.commonstyle{
+				font-family:Times New Roman,serif;
+				margin-bottom:100px !important;
+				margin-top:100px !important;
+			}
+			
+			.serviceslogo{
+				font-size:50px;
+				color:red;
+			}
+			
+			.contactcontent{
+				font-size:20px;
+			}
+			
+			#locations{
+				background-color:white;
+			}
+			
+			.locateimg:hover{
+				opacity:0.6;
+			}
+			.locateimg{
+				width:100%;
+			}
+			
+			#locat{
+				margin-bottom:50px;
+				margin-top:20px;
+			}
+			
+			.up{
+				color:red;
+			}
+			
+			#footer{
+				background-color:white;
+			}

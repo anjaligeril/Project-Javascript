@@ -1,0 +1,266 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <title>AIDEN & COMPANY JOB CONSULTANCY </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="css/wow-animation/libs/animate.css">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
+    <div id="wrapper">
+
+        <!-- Navigation -->
+
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="myNav">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" id="myNavHead" href="#">Aiden & Company Job Consultancy </a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav nav-pills ">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#consultants">Consultants</a></li>
+                        <li><a href="#locations">Locations</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Banner-->
+        <div class="row" id="banner">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 carousel slide" data-ride="carousel" id="myCarousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="images/banner1.jpg" class="images" alt="slider1">
+                            <div class="carousel-caption caption">
+                                <h2 class="bannercontent wow slideInDown " data-wow-duration="2s">CONSULTING</h2>
+                                <h3 class="bannercontent1 wow slideInDown " data-wow-duration="2s">A consultant is usually an expert or an experienced 
+									professional in a specific field and has a wide knowledge 
+									of the subject matter.</h3>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/banner2.jpg" class="images" alt="slider2">
+                            <div class="carousel-caption caption ">
+                                <h2 class="bannercontent wow slideInDown " data-wow-duration="2s">PROFESSIONAL</h2>
+                                <h3 class="bannercontent1 wow slideInDown " data-wow-duration="2s">A professional is a member of a profession or any person who
+									earns their living from a specified professional activity.</h3>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/banner3.jpg" class="images" alt="slider3">
+                            <div class="carousel-caption caption">
+                                <h2 class="bannercontent wow slideInDown " data-wow-duration="2s">EXPERT</h2>
+                                <h3 class="bannercontent1 wow slideInDown " data-wow-duration="2s">A person who has a comprehensive and authoritative knowledge of or skill in a particular area.</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- About-->
+
+        <div class="row commonstyle " id="about">
+            <h2 class="text-center headstyle ">ABOUT US</h2>
+            <div class="col-lg-8 col-md-8 col-sm-8 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 ">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <p class="text-justify aboutcontent bold">A consulting or consultancy firm is a business of one or more experts (consultants) that provides professional advice to an individual or an organization for a fee.Consultancy firms target company executives and provide them with consultants, also known as industry-specific specialists and subject-matter experts, usually trained in management or business schools. The deliverable of a consultant is usually advice or a recipe to follow to achieve a company objective, leading to a company project.
+                        </p>
+                        <p class="text-justify aboutcontent">Whether it’s your servers, network, phones, devices, software or desktops, we can provide expert technical guidance for system upgrades, manage and perform the implementation, and provide post go-live technical support services.Offering full service IT, will liaise with your vendors and leverage our business partnerships to make sure that no problem is left unanswered, and we follow through on resolving IT issues until conclusion.</p>
+                        <button class="btn btn-default btn-lg aboutcontent aboutbtn">Get in Touch</button>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 " id="bigicon">
+
+                        <span class="glyphicon glyphicon-search big  "></span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Consultants-->
+
+        <div class="row commonstyle " id="consultants">
+            <h2 class="text-center head headstyle">OUR CONSULTANTS</h2>
+            <div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 wow bounceIn " data-wow-duration="5s" id="consult">
+
+            </div>
+			<div id="window">
+			</div>
+        </div>
+
+        <!-- services-->
+
+        <div class="row commonstyle text-center" id="services">
+            <h2 class="headstyle">OUR SERVICES</h2>
+            <br>
+            <br>
+            <div class="col-lg-8 col-md-8 col-sm-8 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 wow flipInX " data-wow-duration="2s">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <span class="glyphicon glyphicon-off logo-lg serviceslogo"></span>
+                        <h4>EXPERT</h4>
+                        <p class="text-justify">A person who has a comprehensive and authoritative knowledge of or skill in a particular area.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <span class="glyphicon glyphicon-heart serviceslogo"></span>
+                        <h4>CERTIFIED</h4>
+                        <p class="text-justify">A consultant is usually an expert or an experienced professional in a specific field and has a wide knowledge of the subject matter.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <span class="glyphicon glyphicon-lock serviceslogo"></span>
+                        <h4>PROFESSIONAL</h4>
+                        <p class="text-justify">A professional is a member of a profession or any person who earns their living from a specified professional activity.</p>
+                    </div>
+
+                </div>
+                <div class="row commonstyle">
+
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <span class="glyphicon glyphicon-leaf serviceslogo"></span>
+                        <h4>EXPERIENCE</h4>
+                        <p class="text-justify">A professional is a member of a profession or any person who earns their living from a specified professional activity.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <span class="glyphicon glyphicon-certificate serviceslogo"></span>
+                        <h4>CONSULTANCY</h4>
+                        <p class="text-justify">A person who has a comprehensive and authoritative knowledge of or skill in a particular area..</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <span class="glyphicon glyphicon-wrench serviceslogo"></span>
+                        <h4>POTENTIAL</h4>
+                        <p class="text-justify">A consultant is usually an expert or an experienced professional in a specific field and has a wide knowledge of the subject matter.</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!--  LOCATIONS -->
+
+        <div class="row commonstyle" id="locations">
+            <h2 class="text-center head headstyle">OUR LOCATIONS</h2>
+            <div class="col-lg-8 col-md-8 col-sm-8 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 wow slideInLeft " data-wow-duration="3s" id="locat">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 well card card2">
+                        <img src="images/location1.jpg" class="card-img-top locateimg " height="200" alt="img newyork">
+                        <h3 class="text-center"> NewYork</H3>
+
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 well card2">
+                        <img src="images/location2.jpg" class="card-img-top locateimg  " height="200" alt="img toronto">
+                        <h3 class="text-center">Toronto</h3>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 well card card2">
+                        <img src="images/location3.jpg" class="card-img-top locateimg " height="200" alt="img chicago">
+                        <h3 class="text-center">Chicago</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 well card card2">
+                        <img src="images/location4.jpg" class="card-img-top locateimg " height="200" alt="img sanfran">
+                        <h3 class="text-center"> San Francisco</H3>
+
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 card well card2">
+                        <img src="images/location5.jpg" class="card-img-top  locateimg  " height="200" alt="img vancouver">
+                        <h3 class="text-center"> Vancouver</h3>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 well card card2">
+                        <img src="images/location6.jpg" class="card-img-top locateimg " height="200" alt="img atlanta">
+                        <h3 class="text-center">Atlanta</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTACT-->
+        <div class="row commonstyle" id="contact">
+            <h2 class="text-center contacttitle headstyle">CONTACT</h2>
+            <br>
+            <br>
+            <div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 ">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <span class="contactcontent">Contact us and we'll get back to you within 24 hours.</span>
+                        <br>
+                        <p class="contactcontent"><span class="glyphicon glyphicon-map-marker"></span>Toronto,Canada</p>
+                        <p class="contactcontent"><span class="glyphicon glyphicon-phone"></span> +800.842.5907</p>
+                        <p class="contactcontent"><span class="glyphicon glyphicon-envelope"></span> aidencompany@corporation.com</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="row">
+                            <div class=" form-group">
+                                <input class="form-control" id="name" name="name" placeholder="Name" type="text" >
+                            </div>
+                            <div class=" form-group">
+                                <input class="form-control" id="email" name="email" placeholder="Email" type="email" >
+                            </div>
+
+                            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+                            <br>
+
+                            <div class="form-group">
+                                <button class="btn btn-default btn-lg ">Send</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--FOOTER -->
+        <div id="footer" class="row text-center">
+            <a href="#wrapper">
+                <span class="glyphicon glyphicon-chevron-up up"></span>
+            </a>
+            <p>Copyright &copy; 2018 Aiden & Company Pvt.Ltd.All rights reserved.</p>
+        </div>
+
+    </div>
+    <script src="js/wow-animation/wow.js"></script>
+    <script>
+        wow = new WOW({
+            animateClass: 'animated',
+            offset: 100,
+
+        });
+        wow.init();
+    </script>
+</body>
+
+</html>
