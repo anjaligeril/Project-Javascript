@@ -157,6 +157,11 @@
 				color:red;
 			}
 			
+			.errors{
+				color:red;
+				font-color:15px;
+			}
+			
 			#footer{
 				background-color:white;
 			}

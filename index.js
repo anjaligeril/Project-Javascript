@@ -43,3 +43,35 @@ var users=[];
 			document.getElementById("window").innerHTML=newdata;
 		}
 		
+		function validate(){
+			document.getElementById("error1").innerHTML="";
+			document.getElementById("error2").innerHTML="";
+			var name=document.getElementById("name").value;
+			var email=document.getElementById("email").value;
+			var flag=false;
+			if(name==""){
+				document.getElementById("error1").innerHTML= "Please enter a valid name";
+				//alert("Please enter a valid name");
+			}
+			if(email==""){
+				document.getElementById("error2").innerHTML="Please enter a valid  email";
+				//alert("Please enter a valid email");
+			}else{
+				length=email.length;
+				for(var i=0;i<length;i++){
+					if(email.charAt(i)=="@"){
+						flag=true;
+					}
+				}
+			}
+			if(flag==false)
+			{
+				document.getElementById("error2").innerHTML="Please enter a valid  email";
+				//alert("Please enter a valid email");
+				
+			}
+			if(name!=""&& flag==true){
+				document.getElementById("success").innerHTML="Sucessfully submitted ";
+			}
+			
+		}
